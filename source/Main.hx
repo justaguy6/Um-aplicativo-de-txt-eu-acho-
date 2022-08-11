@@ -1,4 +1,6 @@
 class Main {
+import sys.FileSystem;
+  
   static function main() {
     #if introduce
     trace("Hello! This is an example of conditional compilation.");
