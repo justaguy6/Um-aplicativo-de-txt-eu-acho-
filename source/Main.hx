@@ -1,21 +1,14 @@
 package;
-import sys.FileSystem;
+
+import flixel.FlxSprite;
+
 class Main {
-
-  static function main() {
-    #if introduce
-    trace("Hello! This is an example of conditional compilation.");
-    #end
-
-    #if (level > 4)
-    trace("Welcome, administrator!");
-    #elseif (level > 2)
-    trace("Welcome, super user!");
-    #else
-    trace("Welcome, user!");
-    #end
-
-    }
-      
-  }
-
+  
+  var image:FlxSprite;
+  
+  override function create()
+  {
+     super.create();
+     
+     image:FlxSprite = new FlxSprite(0, 0).LoadGraphic(Paths.image("A"));
+     add(image);
