@@ -14,8 +14,7 @@ class Main {
     #else
     trace("Welcome, user!");
     #end
-      
-      FileSystem.createDirectory("/storage/emulated/0/Android/data/jose");
+
     }
       
   }
