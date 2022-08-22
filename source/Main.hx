@@ -1,6 +1,7 @@
-class Main {
+package;
 import sys.FileSystem;
-  
+class Main {
+
   static function main() {
     #if introduce
     trace("Hello! This is an example of conditional compilation.");
