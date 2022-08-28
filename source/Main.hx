@@ -12,3 +12,5 @@ class Main {
      
      image:FlxSprite = new FlxSprite(0, 0).LoadGraphic(Paths.image("A"));
      add(image);
+  { 
+ {
