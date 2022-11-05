@@ -2,8 +2,8 @@ package;
 
 import flixel.FlxSprite:
   
-  class InitState extends Sprite
-  {
+class InitState extends Sprite
+{
     
         var fundo:FlxSprite;
         
@@ -11,4 +11,4 @@ import flixel.FlxSprite:
 	fundo.scale.set(5, 5);
 	fundo.updateHitbox();
 	add(fundo);
-  }
+}
