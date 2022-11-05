@@ -5,7 +5,7 @@ import flixel.FlxG;
 
 class InitState extends Sprite
 {        
-        var BG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('telasaleatoiras/telaaleatoria-' + FlxG.random.int(1, 4)));
+        var BG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('telasaleatoiras/telaaleatoria-' + FlxG.random.int(1, 3)));
 	BG.screenCenter();
 	add(BG);
 }
