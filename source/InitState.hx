@@ -7,7 +7,7 @@ class InitState extends Sprite
     
         var fundo:FlxSprite;
         
-	fundo = new FlxSprite(-650, -100).makeGraphic(FlxG.width, FlxG.height, FlxColor.WHITE);
+        fundo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('telas/aleatorias-' + FlxG.random.int(1, 4)));
 	fundo.scale.set(5, 5);
 	fundo.updateHitbox();
 	add(fundo);
