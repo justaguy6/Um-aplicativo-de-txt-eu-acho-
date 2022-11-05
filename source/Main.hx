@@ -5,10 +5,7 @@ import openfl.display.Sprite;
 import openfl.Lib;
 import opengl.events.Event;
 
-class Main 
-{
-       class Main extends Sprite
-       {
+class Main extends Sprite {
          
          public static function main():Void
          {
