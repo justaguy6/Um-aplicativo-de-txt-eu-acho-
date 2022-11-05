@@ -4,12 +4,8 @@ import flixel.FlxSprite:
 import flixel.FlxG;
 
 class InitState extends Sprite
-{
-    
-        var fundo:FlxSprite;
-        
-        fundo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('telasaleatoiras/telaaleatoria-' + FlxG.random.int(1, 4)));
-	fundo.scale.set(5, 5);
-	fundo.updateHitbox();
-	add(fundo);
+{        
+        var BG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('telasaleatoiras/telaaleatoria-' + FlxG.random.int(1, 4)));
+	BG.screenCenter();
+	add(BG);
 }
