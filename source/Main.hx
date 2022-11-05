@@ -16,7 +16,7 @@ class Main extends Sprite {
          {
                 super();
            
-                if (stage !null)
+                if (stage != null)
                 {
                         init();
                   
