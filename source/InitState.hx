@@ -1,7 +1,8 @@
 package;
 
 import flixel.FlxSprite:
-  
+import flixel.FlxG;
+
 class InitState extends Sprite
 {
     
