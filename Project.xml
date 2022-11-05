@@ -11,7 +11,7 @@
         <set name="BUILD_DIR" value="export"/>
 
 	<classpath name="source" />
-	
+	<classpath name="assets" />
 	
 	<haxelib name="flixel" />
 	
