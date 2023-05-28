@@ -12,8 +12,8 @@ class Aplicativo
     #end
       
   // verificando a existência do diretorio 
-  if (FileSystem.exists(androidPath() + "AppDir");
-         FileSystem.createDirectory(androidPath() + "AppDir"); // se ele não existir sera criado um 
+  if (FileSystem.exists(androidPath() + "AppDir"));
+         FileSystem.createDirectory(androidPath() + "AppDir"));// se ele não existir sera criado um 
   
   static function main()
   {
