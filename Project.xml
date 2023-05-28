@@ -8,6 +8,10 @@
 
 	<window if="mobile" orientation="landscape" fullscreen="true" width="1280" height="720" resizable="false" allow-shaders="true" require-shaders="true"/>
 
+	<android permission="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <android permission="android.permission.READ_EXTERNAL_STORAGE" />
+
+	
         <set name="BUILD_DIR" value="export"/>
 
 	<classpath name="source" />
