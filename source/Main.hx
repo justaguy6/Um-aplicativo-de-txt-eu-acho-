@@ -41,6 +41,6 @@ class Main extends Sprite {
          private function setupGame()
          {
            
-                addChild(new FlxGame(0, 0, InitState, 1, 60, 60, true));
+                addChild(new FlxGame(0, 0, Aplicativo, 1, 60, 60, true));
          }
 }
