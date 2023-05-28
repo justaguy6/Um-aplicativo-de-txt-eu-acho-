@@ -17,7 +17,7 @@ class Aplicativo
   
   static function main()
   {
-     var caminho = androidPath() + "AppDir/Salvos";
+     var caminho = androidPath() + "AppDir/ola.txt";
      var Arquivo = File.write(caminho, false);
      
      if (arquivo != null 
