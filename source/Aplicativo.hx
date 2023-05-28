@@ -8,16 +8,16 @@ import android.os.Environment;
 class Aplicativo 
 {
     #if android
-    var androidPath:String = Environment.getStorageDirectory();
+    var androidPath:String = Environment.getStorageDirectory;
     #end
       
   // verificando a existência do diretorio 
-  if (FileSystem.exists(androidPath() + "AppDir"));
-         FileSystem.createDirectory(androidPath() + "AppDir"));// se ele não existir sera criado um 
+  if (FileSystem.exists(androidPath + "AppDir"));
+         FileSystem.createDirectory(androidPath + "AppDir"));// se ele não existir sera criado um 
   
   static function main()
   {
-     var caminho = androidPath() + "AppDir/ola.txt";
+     var caminho = androidPath + "AppDir/ola.txt";
      var Arquivo = File.write(caminho, false);
      
      if (arquivo != null 
