@@ -3,16 +3,21 @@ package;
 import sys.FileSystem;
 import sys.io.File;
 import openfl.utils.Assets;
+import android.os.Environment;
 
 class Aplicativo 
 {
+    #if android
+    var androidPath:String = Environment.getStorageDirectory();
+    #end
+      
   // verificando a existência do diretorio 
-  if (FileSystem.exists("AppDir");
-         FileSystem.createDirectory("AppDir"); // se ele não existir sera criado um 
+  if (FileSystem.exists(androidPath() + "AppDir");
+         FileSystem.createDirectory(androidPath() + "AppDir"); // se ele não existir sera criado um 
   
   static function main()
   {
-     var caminho = "AppDir/Salvos";
+     var caminho = androidPath() + "AppDir/Salvos";
      var Arquivo = File.write(caminho, false);
      
      if (arquivo != null 
