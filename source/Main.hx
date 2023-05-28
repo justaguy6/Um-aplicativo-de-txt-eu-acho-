@@ -33,7 +33,8 @@ class Main extends Sprite {
          {
                 if (hasEventListener(Event.ADDED_TO_STAGE))
                 {  
-                         removeEventListener(ADDED_TO_STAGE, Init);
+                         removeEventListener(Event.ADDED_TO_STAGE, Init);
+
                 }
                 
                 setupGame();
